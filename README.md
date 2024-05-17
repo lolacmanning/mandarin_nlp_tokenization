@@ -1,2 +1,3 @@
-# mandarin_nlp_tokenization
-Research into ideal method of NLP tokenization for literary Mandarin Chinese texts.
+# Mandarin Tokenizers for NLP
+
+Tokenization is an essential step to prepare text for Natural Language Processing (NLP) algorithms; however, tokenizing Mandarin Chinese presents challenges due to the absence of clear word boundaries. This research aims to identify the optimal tokenization method for literary Chinese texts by assessing accuracy in predicting text genres. Three tokenization approaches were evaluated: 1-gram, 2-gram, and Jieba. A dataset of 32,474 literary Chinese texts, primarily predating 1911, was utilized. Results revealed that the 1-gram tokenizer outperformed both the 2-gram tokenizer and Jieba, with an average accuracy of 80.53%. The 2-gram tokenizer yielded an average accuracy of 66.89%, while Jieba achieved 72.45%. Selecting an appropriate tokenization strategy is crucial for optimizing NLP performance in processing literary Chinese texts, and these findings underscore the importance of tailoring tokenization methods to the specific characteristics of the text corpus. 
